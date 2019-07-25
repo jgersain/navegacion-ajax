@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<!-- etiquetas meta requeridas  -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- bootstrap css -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+		integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+	<!-- custom styles -->
+	<link rel="stylesheet" href="css/styles.css">
+
+	<title>Navegación con Ajax</title>
+</head>
+
+<body>
+
+	<div class="jumbotron">
+		<div class="container">
+			<h1 class="display-4">Ejericicio: Navegación con Ajax</h1>
+			<p class="lead">Realizar la navegación entre pagínas utilizando jquery y HTML5</p>
+			<hr class="my-4">
+
+			<!-- menú de navegación  -->
+			<nav class="navbar navbar-toggleable navbar-inverse bg-inverse">
+				<div class="navbar-nav">
+					<a class="nav-item nav-link active" href="pagina0.html" data-page="#pagina0">Inicio</a>
+					<a class="nav-item nav-link" href="pagina1.html" data-page="#pagina1">Página1</a>
+					<a class="nav-item nav-link" href="pagina2.html" data-page="#pagina2">Página2</a>
+					<a class="nav-item nav-link" href="pagina3.html" data-page="#pagina3">Página3</a>
+					<a class="nav-item nav-link" href="pagina4.html" data-page="#pagina4">Página4</a>
+				</div>
+			</nav> <!-- fin menu de navegacion -->
+
+			<div class="card" id="content">
+				<div class="jumbotron">
+					<h1 class="display-4">Hola, Mundo!</h1>
+					<small>Utilizando el componente de bootstrap junbotron</small>
+					<hr>
+					<p class="lead">Hola esta es la página principal del ejecicio, si quiere añadir información
+						adicional hazlo.</p>
+					<hr class="my-4">
+					<p>Este ejercicio utiliza bootstrap y jquery.</p>
+					<p class="lead">
+						<a class="btn btn-outline-primary btn-lg" href="#" role="button">NO HACER NADA</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- jquery -->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/navigation.js"></script>
+</body>
+
+</html>
