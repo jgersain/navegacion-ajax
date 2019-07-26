@@ -1,5 +1,12 @@
 .jumbotron {
-    height: 100vh;
     margin: 0;
-    /* background: red; */
+}
+
+.navbar-nav {
+    padding: 10 20px;
+}
+
+body {
+    height: 100%;
+    background: #eceeef;
 }
